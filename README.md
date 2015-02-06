@@ -1,4 +1,4 @@
-[![Build Status](http://runbot.adigielite.com/runbot/badge/flat/1/8.0.svg)](http://runbot.adigielite.com/runbot)
+[![Build Status](http://runbot.odoo.com/runbot/badge/flat/1/8.0.svg)](http://runbot.adigielite.com/runbot)
 [![Tech Doc](http://img.shields.io/badge/8.0-docs-8f8f8f.svg?style=flat)](http://www.adigielite.com/documentation/8.0) 
 [![Help](http://img.shields.io/badge/8.0-help-8f8f8f.svg?style=flat)](https://www.adigielite.com/forum/help-1)
 [![Nightly Builds](http://img.shields.io/badge/8.0-nightly-8f8f8f.svg?style=flat)](http://nightly.adigielite.com/)
