@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+    <record model="ir.ui.view" id="test_base_form">
+      <field name="name">test.base.form</field>
+      <field name="model">test.base</field>
+      <field name="type">form</field>
+      <field name="arch" type="xml">
+        <form string="Test Base">
+          <field name="name" />
+          <field name="code" />
+        </form>
+      </field>
+    </record>
+    <record model="ir.ui.view" id="test_base_tree">
+      <field name="name">test.base.tree</field>
+      <field name="model">test.base</field>
+      <field name="type">tree</field>
+      <field name="arch" type="xml">
+        <tree string="Test Base">
+          <field name="name" />
+          <field name="code" />
+        </tree>
+      </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_test_seq">
+      <field name="name">Test Base</field>
+      <field name="res_model">test.base</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="menu_test_base_main" name="Test Base" />
+    <menuitem id="menu_test_base" parent="menu_test_base_main" name="Test Base" action="action_test_seq" />
+  </data>
+</openerp>
